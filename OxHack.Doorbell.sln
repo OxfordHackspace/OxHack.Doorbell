@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop", "Desktop", "{C213300C-C2F7-4554-A868-5B7C9EC30F2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IrcDaemon", "IrcDaemon", "{91AA136C-DE2C-424F-BA8D-D87928641AD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OxHack.Doorbell.IrcBotDaemon", "OxHack.Doorbell.IrcBotDaemon\OxHack.Doorbell.IrcBotDaemon.csproj", "{3601B468-3BB1-4022-BD5A-9E93497EBFEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OxHack.Doorbell.IrcBot", "OxHack.Doorbell.IrcBot\OxHack.Doorbell.IrcBot.csproj", "{C71F8CBE-AB4E-4812-B3A0-09A1723A9AB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OxHack.Doorbell.Messaging", "OxHack.Doorbell.Messaging\OxHack.Doorbell.Messaging.csproj", "{402821CF-B583-4E56-A4D5-AEB3DAA52448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OxHack.Doorbell.Common", "OxHack.Doorbell.Common\OxHack.Doorbell.Common.csproj", "{3D6B1737-684D-4C94-ADDD-7A429EF22D92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SmsDaemon", "SmsDaemon", "{0ED9D719-5F6A-4CCB-B588-BD93256DF84A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OxHack.Doorbell.SmsDaemon", "OxHack.Doorbell.SmsDaemon\OxHack.Doorbell.SmsDaemon.csproj", "{96401F68-C69A-4E25-85DA-C973470B3B57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OxHack.Doorbell.Notifier", "OxHack.Doorbell.Notifier\OxHack.Doorbell.Notifier.csproj", "{43A8EC1A-FC51-4653-A4A3-06E97BB5698C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{8109E49D-CCFC-4BCD-938E-36110E2BAB7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3601B468-3BB1-4022-BD5A-9E93497EBFEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3601B468-3BB1-4022-BD5A-9E93497EBFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3601B468-3BB1-4022-BD5A-9E93497EBFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3601B468-3BB1-4022-BD5A-9E93497EBFEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C71F8CBE-AB4E-4812-B3A0-09A1723A9AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C71F8CBE-AB4E-4812-B3A0-09A1723A9AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C71F8CBE-AB4E-4812-B3A0-09A1723A9AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C71F8CBE-AB4E-4812-B3A0-09A1723A9AB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{402821CF-B583-4E56-A4D5-AEB3DAA52448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402821CF-B583-4E56-A4D5-AEB3DAA52448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402821CF-B583-4E56-A4D5-AEB3DAA52448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402821CF-B583-4E56-A4D5-AEB3DAA52448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6B1737-684D-4C94-ADDD-7A429EF22D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6B1737-684D-4C94-ADDD-7A429EF22D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6B1737-684D-4C94-ADDD-7A429EF22D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6B1737-684D-4C94-ADDD-7A429EF22D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96401F68-C69A-4E25-85DA-C973470B3B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96401F68-C69A-4E25-85DA-C973470B3B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96401F68-C69A-4E25-85DA-C973470B3B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96401F68-C69A-4E25-85DA-C973470B3B57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43A8EC1A-FC51-4653-A4A3-06E97BB5698C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A8EC1A-FC51-4653-A4A3-06E97BB5698C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A8EC1A-FC51-4653-A4A3-06E97BB5698C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A8EC1A-FC51-4653-A4A3-06E97BB5698C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3601B468-3BB1-4022-BD5A-9E93497EBFEC} = {91AA136C-DE2C-424F-BA8D-D87928641AD8}
+		{C71F8CBE-AB4E-4812-B3A0-09A1723A9AB7} = {91AA136C-DE2C-424F-BA8D-D87928641AD8}
+		{402821CF-B583-4E56-A4D5-AEB3DAA52448} = {8109E49D-CCFC-4BCD-938E-36110E2BAB7D}
+		{3D6B1737-684D-4C94-ADDD-7A429EF22D92} = {8109E49D-CCFC-4BCD-938E-36110E2BAB7D}
+		{96401F68-C69A-4E25-85DA-C973470B3B57} = {0ED9D719-5F6A-4CCB-B588-BD93256DF84A}
+		{43A8EC1A-FC51-4653-A4A3-06E97BB5698C} = {C213300C-C2F7-4554-A868-5B7C9EC30F2D}
+	EndGlobalSection
+EndGlobal
