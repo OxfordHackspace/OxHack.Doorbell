@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop", "Desktop", "{C213300C-C2F7-4554-A868-5B7C9EC30F2D}"
 EndProject
@@ -30,13 +30,9 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3601B468-3BB1-4022-BD5A-9E93497EBFEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3601B468-3BB1-4022-BD5A-9E93497EBFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3601B468-3BB1-4022-BD5A-9E93497EBFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3601B468-3BB1-4022-BD5A-9E93497EBFEC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C71F8CBE-AB4E-4812-B3A0-09A1723A9AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C71F8CBE-AB4E-4812-B3A0-09A1723A9AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C71F8CBE-AB4E-4812-B3A0-09A1723A9AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C71F8CBE-AB4E-4812-B3A0-09A1723A9AB7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{402821CF-B583-4E56-A4D5-AEB3DAA52448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{402821CF-B583-4E56-A4D5-AEB3DAA52448}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{402821CF-B583-4E56-A4D5-AEB3DAA52448}.Release|Any CPU.ActiveCfg = Release|Any CPU
