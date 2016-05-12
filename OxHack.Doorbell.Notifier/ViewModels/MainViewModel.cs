@@ -16,6 +16,7 @@ using System.IO;
 using OxHack.Doorbell.Notifier.Screensaver;
 using System.Windows.Interop;
 using System.Windows;
+using System.Diagnostics;
 
 namespace OxHack.Doorbell.Notifier.ViewModels
 {
@@ -110,7 +111,19 @@ namespace OxHack.Doorbell.Notifier.ViewModels
 
 			await Task.Delay(TimeSpan.FromSeconds(0.4));
 			this.hack.TransitionToVisible();
-			this.player.Play();
+
+			if (message.Message.Body.ToLowerInvariant().Contains("secretariat"))
+			{
+				var proc = new ProcessStartInfo("https://www.youtube.com/watch?v=_B-CCX4ff64&feature=youtu.be&t=10s")
+				{
+					UseShellExecute = true
+				};
+				Process.Start(proc);
+			}
+			else
+			{
+				this.player.Play();
+			}
 		}
 	}
 }
